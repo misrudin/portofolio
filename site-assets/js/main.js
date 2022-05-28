@@ -82,7 +82,7 @@ function calculateYear(birthMonth, birthDay, birthYear) {
 }
 
 const experience = document.getElementById('experience')
-experience.innerHTML = calculateYear(6, 1, 2020).toString() + "+"
+experience.innerHTML = calculateYear(2, 1, 2020).toString() + "+"
 
 async function getPublicRepo() {
     await fetch("https://api.github.com/users/misrudin")
